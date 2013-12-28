@@ -4,4 +4,26 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  
+<servlet>
+<servlet-name>Controller</servlet-name>    <!--名字-->
+<servlet-class>Controller</servlet-class>    <!--指定类-->
+ </servlet>
+ <servlet>
+<servlet-name>new_account</servlet-name>
+<servlet-class>NewAccountServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>new_account</servlet-name>
+<url-pattern>/new_account</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>Controller</servlet-name>    <!--和上面的名字一致-->
+<url-pattern>/login</url-pattern>    <!--映射路径-->
+</servlet-mapping>
+<taglib>
+<taglib-uri>utilities</taglib-uri>
+<taglib-location>/WEB-INF/tlds/utilities.tld</taglib-location>
+</taglib>
 </web-app>
