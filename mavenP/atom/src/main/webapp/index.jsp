@@ -59,9 +59,11 @@ width:300px;
 
 <p>pra1</p>
 <p>pra2</p>
-<div id="div2" style="background:blue;height:100px;width:100px;position:absolute;">3</div>
-<div id="div1" style="background:#98bf21;height:100px;width:100px;position:relative;">1or2</div>
 
+<div id="div1" style="background:#98bf21;height:100px;width:100px;position:relative;">1or2</div>
+<div id="div2" style="background:blue;height:100px;width:100px;top:300px;left:300px;position:absolute;">3</div>
 <div id="css1">css3</div>
+<!-- div id="css1">css4</div>
+<div id="css1">css5</div-->
 </body>
 </html>

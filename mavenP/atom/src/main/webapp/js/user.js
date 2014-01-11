@@ -32,8 +32,8 @@ $(document).ready(function(){
 		
 		  $("#b7").click(function(){
 		        var div=$("#div2");
-		        div.animate({height:'200px',bottom:'180px'},"slow");   
-		        div.animate({height:'100px'},"slow");
+		        div.animate({height:'200px',top:'200px'},"slow");   
+		        div.animate({height:'180px',top:'220px'},"slow");
 		        
 		      });
 });
