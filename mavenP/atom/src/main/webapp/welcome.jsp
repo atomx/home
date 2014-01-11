@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<jsp:userBean id="user" scope="session" class="com.atom.model.User"/>
+<jsp:useBean id="user" scope="session" class="com.atom.model.User"/>
 <!--也可以
 <%
 User user = (User)session.getAttribute("user");
