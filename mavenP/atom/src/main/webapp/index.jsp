@@ -9,6 +9,8 @@
 <title>success</title>
 
 <style> 
+body{filter: Gray} 
+html {filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);}
 #css1
 {
 width:100px;
@@ -57,13 +59,20 @@ width:300px;
 <button id="b6" type="button">animate2</button>
 <button id="b7" type="button">animate3</button>
 <button id="b8" type="button">animate4</button>
+<button id="b9" type="button">empty div inner element</button>
+<button id="b10" type="button">add element in div</button>
 <p>pra1</p>
 <p>pra2</p>
 
 <div id="div1" style="background:#98bf21;height:100px;width:100px;position:relative;">1or2</div>
 <div id="div2" style="background:blue;height:100px;width:100px;top:300px;left:300px;position:absolute;">3</div>
-<div id="div3" h="200" t="200" style="background:red;height:100px;width:100px;top:300px;left:500px;position:absolute;">3</div>
+<div id="div3" h="200" t="200" style="background:red;height:100px;width:100px;top:300px;left:500px;position:absolute;">4</div>
 <div id="css1">css3</div>
+<div id="div9" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+This is some text in the div.
+<p>This is a paragraph in the div.</p>
+<p>This is another paragraph in the div.</p>
+</div>
 <!-- div id="css1">css4</div>
 <div id="css1">css5</div-->
 </body>

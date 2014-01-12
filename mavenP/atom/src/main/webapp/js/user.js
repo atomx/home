@@ -44,6 +44,12 @@ $(document).ready(function(){
 		        //div.animate({height:'180px',top:'220px'},"slow");
 		        
 		      });
+		  $("#b9").click(function(){
+			    $("#div9").empty();
+		  });
+		  $("#b10").click(function(){
+			    $("#div9").append("<p>new content</p>");
+		  });
 
 });
 		  
