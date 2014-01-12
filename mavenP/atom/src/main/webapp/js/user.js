@@ -36,6 +36,15 @@ $(document).ready(function(){
 		        div.animate({height:'180px',top:'220px'},"slow");
 		        
 		      });
+		  
+		  $("#b8").click(function(){
+		        var div=$("#div3");
+		     
+		        div.animate({height:div.attr("h"),top:div.attr("t")},"slow");   
+		        //div.animate({height:'180px',top:'220px'},"slow");
+		        
+		      });
+
 });
 		  
 
