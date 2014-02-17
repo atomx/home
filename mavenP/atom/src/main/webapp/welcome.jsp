@@ -11,7 +11,7 @@
 <jsp:useBean id="user" scope="session" class="com.atom.model.User"/>
 <!--也可以
 <%
-User user = (User)session.getAttribute("user");
+//User user = (User)session.getAttribute("user");
 %>
 -->
 欢迎你：<font color=red><%=user.getUserName()%></font>
