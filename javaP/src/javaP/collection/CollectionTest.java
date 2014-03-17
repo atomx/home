@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class CollectionTest {
@@ -27,6 +28,7 @@ public class CollectionTest {
 		Collection<String> hs = fill(new HashSet<String>());
 		System.out.println(fill(new TreeSet<String>()));// sort storage
 		System.out.println(fill(new LinkedHashSet<String>())); // sort as add sequency
+		
 		
 
 	}
