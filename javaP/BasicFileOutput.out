@@ -1,0 +1,29 @@
+1: package javap.io.test;
+2: 
+3: import java.io.BufferedReader;
+4: import java.io.BufferedWriter;
+5: import java.io.FileWriter;
+6: import java.io.IOException;
+7: import java.io.PrintWriter;
+8: import java.io.StringReader;
+9: 
+10: public class BasicFileOutput {
+11: 	static String file = "BasicFileOutput.out";
+12: 	
+13: 	
+14: 
+15: 	public static void main(String[] args) throws IOException {
+16: 		BufferedReader in = new BufferedReader(
+17: 				new StringReader(BufferedInputFile.read("C:\\Users\\max\\git\\home\\javaP\\src\\javap\\io\\test\\BasicFileOutput.java")));
+18: 		
+19: 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)));
+20: 		int lineCount =1;
+21: 		String s;
+22: 		while((s = in.readLine())!=null){
+23: 			out.println(lineCount++ +": "+s);
+24: 		}
+25: 		out.close();
+26: 		System.out.println(BufferedInputFile.read(file));
+27: 	}
+28: 
+29: }
