@@ -4,5 +4,5 @@ public class Test {
 	private String s ="privatestring";
 	private int i;
 	protected String protectedString = "protected";
-	String packageString = "package";
+	String packageString = "no modify string";
 }
